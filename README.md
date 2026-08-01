@@ -21,7 +21,7 @@ Adguard
 8. Ввести название фильтра (на телефонах)
 9. Нажать Добавить
 
-Зеркало репозитория https://gitlab.com/mrtag-oss1/blocklistyanmax/
+Зеркало репозитория https://gitlab.com/mrtag-oss1/russianservicesblacklist
 
 Engish
 
@@ -46,4 +46,4 @@ AdGuard
 9. Enter a name for the filter (on mobile devices)
 10. Click "Add"
 
-Repository mirror: https://gitlab.com/mrtag-oss1/blocklistyanmax/
+Repository mirror: https://gitlab.com/mrtag-oss1/russianservicesblacklist
