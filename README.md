@@ -21,8 +21,6 @@ Adguard
 8. Ввести название фильтра (на телефонах)
 9. Нажать Добавить
 
-Зеркало репозитория https://gitlab.com/mrtag-oss1/russianservicesblacklist
-
 Engish
 
 Blocker for Yandex, VK, and the MAX messenger for RethinkDNS (Android) and AdGuard (cross-platform)
@@ -45,8 +43,6 @@ AdGuard
 8. Click "Add" (or "Next")
 9. Enter a name for the filter (on mobile devices)
 10. Click "Add"
-
-Repository mirror: https://gitlab.com/mrtag-oss1/russianservicesblacklist
 
 IMPORTANT!!! / ВАЖНО!!!
 
