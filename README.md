@@ -53,13 +53,3 @@ AdGuard
 8. Click "Add" (or "Next")
 9. Enter a name for the filter (on mobile devices)
 10. Click "Add"
-
-IMPORTANT!!! / ВАЖНО!!!
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/White-blue-white_flag.svg/1280px-White-blue-white_flag.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Россия"> Россия будет свободной! / Russia will be free!
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg/1920px-Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Беларусь"> Жыве Беларусь! / Long Live Belarus!
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Украина"> Слава Украине! / Glory to Ukraine!
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai" width="30" height="20" alt="Палестина"> Free Palestine! / Свободу Палестине!
