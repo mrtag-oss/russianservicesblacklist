@@ -8,48 +8,43 @@ IMPORTANT!!! / ВАЖНО!!!
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai" width="30" height="20" alt="Палестина"> Free Palestine! / Свободу Палестине!
 
-Русский
 
-Блокировщик Яндекса, ВК и мессенджера МАКС для RethinkDNS (Android) и ADGuard (кроссплатформенный)
+Блокировщик Яндекса, ВК и мессенджера МАКС для всех устройств
 
 Как установить?
 
-RethinkDNS
-1. Скачать из репозитория файл Rethink_xxxx.rbk
-2. Скачать приложение с официального сайта ([https://rethinkdns.com/](https://github.com/celzero/rethink-app/releases/latest)) (загрузить файл вида rethink-xx.apk)
-3. Перейти по пути Настроить - Настройки  - Резервное копирование и восстановление - Восстановление - Восстановить - Выбираете ранее загруженный файл
-4. Приложение перезапустится и автоматически запустит новую конфигурацию
+Windows
 
-Adguard
-1. Скачать приложение с официального сайта ([https://adguard.com/](https://adguard.info/?_plc=ru))
-2. Отключить все настройки кроме DNS-защиты (по желанию)
-3. Зайти в настройки DNS-фильтров (редактор DNS-фильтров) отключить все фильтры (по желанию)
-4. Нажать Добавить DNS-фильтр (+ в списке фильтров)
-5. Нажать импорт фильтра (для пк - версии)
-6. Вставить ссылку https://raw.githubusercontent.com/mrtag-oss/russianservicesblacklist/refs/heads/main/blacklistadguard.txt 
-7. Нажать Добавить (или Далее)
-8. Ввести название фильтра (на телефонах)
-9. Нажать Добавить
+1.  Настройки - Сеть и Интернет - Wi-Fi - Свойства <ваша сеть>
+2.  Во вкладке назначение dns-сервера нажать изменить
+3.  Изменить настройки так как на скриншоте:
+<img width="640" height="956" alt="image" src="https://github.com/user-attachments/assets/08381d2b-c760-4614-b380-0eb97d44188f" />
 
-Engish
+Браузеры
 
-Blocker for Yandex, VK, and the MAX messenger for RethinkDNS (Android) and AdGuard (cross-platform)
+Chrome
 
-How to install?
+1. Перейти в настройки безопасности chrome://settings/security
+2. Изменить настройки так как на скриншоте:
+<img width="974" height="265" alt="image" src="https://github.com/user-attachments/assets/88ae8e16-a71a-40a7-b95c-222088cf6172" />
 
-RethinkDNS
-1. Download the `Rethink_xxxx.rbk` file from the repository
-2. Download the app from the official website (https://rethinkdns.com/)
-3. Navigate to: Configure - Settings - Backup and Restore - Restore - Restore, then select the previously downloaded file
-4. The app will restart and automatically launch the new configuration
+Firefox
 
-AdGuard
-1. Download the app from the official website (https://adguard.com/)
-2. Disable all settings except DNS Protection (optional)
-3. Go to DNS filter settings (DNS filter editor) and disable all filters (optional)
-4. Click "Add DNS filter" (+ in the filter list)
-5. Click "Import filter" (for the PC version)
-6. Paste the link: https://raw.githubusercontent.com/mrtag-oss/russianservicesblacklist/refs/heads/main/blacklistadguard.txt 
-8. Click "Add" (or "Next")
-9. Enter a name for the filter (on mobile devices)
-10. Click "Add"
+1. Перейти в настройки doh about:preferences#dnsOverHttps
+2. Изменить настройки так как на скриншоте:
+<img width="1306" height="706" alt="image" src="https://github.com/user-attachments/assets/fd7e3ee4-68c9-48b8-a509-d39575d2942e" />
+
+Android
+
+1. Зайти в настройки dns
+2. Изменить dns на russianservicesblacklist.duckdns.org
+
+macos/ios
+
+1. [Скачайте файл](https://github.com/mrtag-oss/russianservicesblacklist/blob/main/rsb.mobileconfig) .mobileconfig через браузер Safari на вашем устройстве. 
+2. Подтвердите загрузку профиля в появившемся окне.
+3. Перейдите в Настройки (Settings) на iOS или Системные настройки на macOS.
+4. Откройте раздел Профиль загружен (Profile Downloaded) или перейдите в Основные -> Профили и управление устройством.
+5. Выберите скачанный профиль и нажмите Установить (Install), следуя инструкциям на экране.
+
+
