@@ -39,7 +39,7 @@ Android
 1. Зайти в настройки dns
 2. Изменить dns на russianservicesblacklist.duckdns.org
 
-macos/ios
+macOS/iOS
 
 1. [Скачайте файл](https://github.com/mrtag-oss/russianservicesblacklist/blob/main/rsb.mobileconfig) .mobileconfig через браузер Safari на вашем устройстве. 
 2. Подтвердите загрузку профиля в появившемся окне.
