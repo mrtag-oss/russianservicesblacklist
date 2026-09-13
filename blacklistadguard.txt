@@ -253,3 +253,7 @@
 ||sso.dzen.ru^
 ||suggest.dzen.ru^
 ||suggest.sso.dzen.ru^
+||dot.dns.yandex.net^
+||dns.yandex.ru^
+||dns.yandex.net^
+||dns.yandex.com^
