@@ -257,3 +257,34 @@
 ||dns.yandex.ru^
 ||dns.yandex.net^
 ||dns.yandex.com^
+! ------------------ МАКС МЕССЕНДЖЕР: БАЗОВЫЕ ДОМЕНЫ ------------------
+! Центральный хост сигнального сервера и API (из WS_HOST)
+||ws-api.oneme.ru^
+||oneme.ru^
+
+! Официальные веб-платформы и источники запросов (из заголовока Origin)
+||web.max.ru^
+||max.ru^
+! ------------------ МАКС МЕССЕНДЖЕР: URL И ЭНДПОИНТЫ ------------------
+! Сетевой шлюз приема/инициализации звонков и передачи SDP-сессий
+/ws2?*clientType=ONE_ME
+/ws2?*userId=
+/ws2?*conversationId=
+
+! Сигнальные параметры авторизации в URI-строках транспорта
+*&platform=WEB&appVersion=*clientType=ONE_ME*
+! ------------------ МАКС МЕССЕНДЖЕР: API И МЕТОДЫ ------------------
+! Метод авторизации и проверки токена в сети (из LoginByToken)
+*/LoginByToken*
+
+! Вызовы синхронизации приватных данных (из параметров invoke 19)
+*&chatsSync=*contactsSync=*presenceSync=*
+
+! Запросы параметров WebRTC конфигурации и TURN/STUN серверов
+*&internalCallerParams*
+! ------------------ МАКС МЕССЕНДЖЕР: СИГНАТУРЫ JSON ------------------
+! Вырезание конфигурации WebRTC (Token, WebsocketEndpoint, TurnUsername)
+$jsonprune=tkn,jsonprune=wse,jsonprune=trnu
+
+! Блокировка полей пакетов обмена и идентификаторов участников сессий
+$jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
