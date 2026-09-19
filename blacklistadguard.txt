@@ -290,3 +290,7 @@ $jsonprune=tkn,jsonprune=wse,jsonprune=trnu
 $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 
 ||ruwiki.ru^
+
+! ------------------ RUTUBE ------------------
+||rutube.ru^
+||rutubelist.ru^
