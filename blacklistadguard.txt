@@ -294,3 +294,4 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ! ------------------ RUTUBE ------------------
 ||rutube.ru^
 ||rutubelist.ru^
+||rutube.sport^
