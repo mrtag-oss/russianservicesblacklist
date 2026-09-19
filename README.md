@@ -9,7 +9,14 @@ IMPORTANT!!! / ВАЖНО!!!
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai" width="30" height="20" alt="Палестина"> Free Palestine! / Свободу Палестине!
 
 
-Блокировщик Яндекса, ВК и мессенджера МАКС для всех устройств
+Блокировщик российских сервисов для всех устройств
+
+Что заблокированно?
+
+- Яндекс (все сервисы)
+- ВК (все сервисы)
+- Мессенджер МАКС
+- Рувики
 
 Как установить?
 
