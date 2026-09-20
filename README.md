@@ -71,6 +71,7 @@ sudo systemctl restart systemd-resolved
 7. Проверка:
 
 Ввести по отдельности комманды resolvectl status и nslookup ya.ru
+
 Должно быть примено так:
 rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ resolvectl status
 Global
