@@ -68,12 +68,10 @@ Linux
 6. Запустить командой:
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 sudo systemctl restart systemd-resolved
-7.Проверка:
+7. Проверка:
 
 Ввести по отдельности комманды resolvectl status и nslookup ya.ru
-
 Должно быть примено так:
-
 rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ resolvectl status
 Global
          Protocols: -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
