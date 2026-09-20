@@ -80,6 +80,6 @@ sudo systemctl restart systemd-resolved
 <img width="697" height="450" alt="image" src="https://github.com/user-attachments/assets/f0d317d4-f001-41ca-95de-b8eb37d23f18" />
 
 Откат:
-1. Закомментировать строки dns и dot в конфиге (конфиг открывается командой sudo nano /etc/systemd/resolved.conf)
+1. Закомментировать строки dns и dnsovertls в конфиге (конфиг открывается командой sudo nano /etc/systemd/resolved.conf)
 2. Сохранить файл, выйти из редактора 
 3. Перезагрузить службу командой sudo systemctl restart systemd-resolved
