@@ -66,38 +66,17 @@ Linux
 
 5. Сохранить конфиг и выйти из редактора 
 6. Запустить командой:
+
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 
 sudo systemctl restart systemd-resolved
-8. Проверка:
+7. Проверка:
 
 Ввести по отдельности комманды resolvectl status и nslookup ya.ru
 
 Должно быть примено так:
 
-rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ resolvectl status
-Global
-         Protocols: -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
-  resolv.conf mode: stub
-Current DNS Server: 128.254.146.46#russianservicesblacklist.duckdns.org
-       DNS Servers: 128.254.146.46#russianservicesblacklist.duckdns.org
-
-Link 2 (ens33)
-    Current Scopes: DNS
-         Protocols: +DefaultRoute -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
-Current DNS Server: 192.168.222.2
-       DNS Servers: 192.168.222.2
-        DNS Domain: localdomain
-     Default Route: yes
-rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ nslookup ya.ru
-Server:		127.0.0.53
-Address:	127.0.0.53#53
-
-Non-authoritative answer:
-Name:	ya.ru
-Address: 0.0.0.0
-Name:	ya.ru
-Address: ::
+<img width="697" height="450" alt="image" src="https://github.com/user-attachments/assets/f0d317d4-f001-41ca-95de-b8eb37d23f18" />
 
 Откат:
 1. Закомментировать строки dns и dot в конфиге (конфиг открывается командой sudo nano /etc/systemd/resolved.conf)
