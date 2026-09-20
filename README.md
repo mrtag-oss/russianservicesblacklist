@@ -56,4 +56,45 @@ macOS/iOS
 4. Откройте раздел Профиль загружен (Profile Downloaded) или перейдите в Основные -> Профили и управление устройством.
 5. Выберите скачанный профиль и нажмите Установить (Install), следуя инструкциям на экране.
 
+Linux
 
+1. Открыть терминал
+2. Открыть конфиг командой sudo nano /etc/systemd/resolved.conf
+3. В секции [Resolve] раскомментировать параметры DNS и DOT
+4. Привести их к такому виду:
+<img width="644" height="445" alt="image" src="https://github.com/user-attachments/assets/402570c2-5a4e-4511-a9fc-31b12a879337" />
+5. Сохранить конфиг и выйти из редактора 
+6. Запустить командой:
+sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+sudo systemctl restart systemd-resolved
+7.Проверка:
+Ввести по отдельности комманды resolvectl status и nslookup ya.ru
+Должно быть примено так:
+rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ resolvectl status
+Global
+         Protocols: -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
+  resolv.conf mode: stub
+Current DNS Server: 128.254.146.46#russianservicesblacklist.duckdns.org
+       DNS Servers: 128.254.146.46#russianservicesblacklist.duckdns.org
+
+Link 2 (ens33)
+    Current Scopes: DNS
+         Protocols: +DefaultRoute -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
+Current DNS Server: 192.168.222.2
+       DNS Servers: 192.168.222.2
+        DNS Domain: localdomain
+     Default Route: yes
+rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ nslookup ya.ru
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+Name:	ya.ru
+Address: 0.0.0.0
+Name:	ya.ru
+Address: ::
+
+Откат:
+1. Закомментировать строки dns и dot в конфиге (конфиг открывается командой sudo nano /etc/systemd/resolved.conf)
+2. Сохранить файл, выйти из редактора 
+3. Перезагрузить службу командой sudo systemctl restart systemd-resolved
