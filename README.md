@@ -67,8 +67,9 @@ Linux
 5. Сохранить конфиг и выйти из редактора 
 6. Запустить командой:
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
+
 sudo systemctl restart systemd-resolved
-7. Проверка:
+8. Проверка:
 
 Ввести по отдельности комманды resolvectl status и nslookup ya.ru
 
