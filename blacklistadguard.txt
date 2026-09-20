@@ -295,3 +295,7 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ||rutube.ru^
 ||rutubelist.ru^
 ||rutube.sport^
+
+! ------------------ 2GIS (СБЕР) ------------------
+||2gis.ru^
+||2gis.com^
