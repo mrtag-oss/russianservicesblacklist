@@ -73,6 +73,7 @@ sudo systemctl restart systemd-resolved
 Ввести по отдельности комманды resolvectl status и nslookup ya.ru
 
 Должно быть примено так:
+
 rsbadmin@rsbadmin-VMware-Virtual-Platform:~$ resolvectl status
 Global
          Protocols: -LLMNR -mDNS +DNSOverTLS DNSSEC=no/unsupported
