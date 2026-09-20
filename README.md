@@ -59,27 +59,6 @@ macOS/iOS
 Linux
 
 1. Открыть терминал
-2. Открыть конфиг командой sudo nano /etc/systemd/resolved.conf
-3. В секции [Resolve] раскомментировать параметры DNS и DNSOverTLS
-4. Привести их к такому виду:
-<img width="644" height="445" alt="image" src="https://github.com/user-attachments/assets/402570c2-5a4e-4511-a9fc-31b12a879337" />
-
-5. Сохранить конфиг и выйти из редактора 
-6. Запустить командой:
-
-sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
-
-sudo systemctl restart systemd-resolved
-
-7. Проверка:
-
-Ввести по отдельности комманды resolvectl status и nslookup ya.ru
-
-Должно быть примено так:
-
-<img width="697" height="450" alt="image" src="https://github.com/user-attachments/assets/f0d317d4-f001-41ca-95de-b8eb37d23f18" />
-
-Откат:
-1. Закомментировать строки dns и dnsovertls в конфиге (конфиг открывается командой sudo nano /etc/systemd/resolved.conf)
-2. Сохранить файл, выйти из редактора 
-3. Перезагрузить службу командой sudo systemctl restart systemd-resolved
+2. Скачать скрипт установки командой curl -O https://raw.githubusercontent.com/mrtag-oss/russianservicesblacklist/refs/heads/main/rsb.sh
+3. Выдать ему права на исполнение командой chmod +x rsb.sh
+4. Запустить командой sudo ./rsb.sh
