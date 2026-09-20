@@ -70,6 +70,7 @@ Linux
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 
 sudo systemctl restart systemd-resolved
+
 7. Проверка:
 
 Ввести по отдельности комманды resolvectl status и nslookup ya.ru
