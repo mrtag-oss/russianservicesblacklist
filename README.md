@@ -63,6 +63,7 @@ Linux
 3. В секции [Resolve] раскомментировать параметры DNS и DOT
 4. Привести их к такому виду:
 <img width="644" height="445" alt="image" src="https://github.com/user-attachments/assets/402570c2-5a4e-4511-a9fc-31b12a879337" />
+
 5. Сохранить конфиг и выйти из редактора 
 6. Запустить командой:
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
