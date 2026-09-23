@@ -306,3 +306,6 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ||userapi.com^
 
 ||trace-flow.ru^
+
+||smotrim.ru^
+||soloviev.live^
