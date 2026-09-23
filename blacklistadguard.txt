@@ -309,3 +309,4 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 
 ||smotrim.ru^
 ||soloviev.live^
+||vsoloviev.ru^
