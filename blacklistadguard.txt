@@ -314,3 +314,5 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ||1tv.ru^
 ||tns-counter.ru^
 ||ottmedia.ru^
+||yandexadexchange.net^
+||solovievfm.hostingradio.ru^
