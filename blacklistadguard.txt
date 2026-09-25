@@ -316,3 +316,21 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ||ottmedia.ru^
 ||yandexadexchange.net^
 ||solovievfm.hostingradio.ru^
+
+! ------------------ НСДИ (СУВЕРЕННЫЙ DNS) ------------------
+||auth-nsdi.ru^
+||res-nsdi.ru^
+
+! ------------------ ГОСУДАРСТВЕННЫЕ СМИ ------------------
+||lenta.ru^
+||gazeta.ru^
+||kp.ru^
+||rambler.ru^
+
+! ------------------ ЦИК И ВЫБОРЫ ------------------
+||cikrf.ru^
+||izbirkom.ru^
+||kremlin.ru^
+||duma.gov.ru^
+||onf.ru^
+
