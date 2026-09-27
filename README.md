@@ -1,6 +1,6 @@
 IMPORTANT!!! / ВАЖНО!!!
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/White-blue-white_flag.svg/1280px-White-blue-white_flag.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Россия"> Россия будет свободной! / Russia will be free!
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/White-blue-white_flag.svg/1280px-White-blue-white_flag.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Россия"> Россия будет свободной (счастливой)! / Russia will be free (happy)!
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg/1920px-Flag_of_Belarus_%281918%2C_1991%E2%80%931995%29.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Беларусь"> Жыве Беларусь! / Long Live Belarus!
 
