@@ -278,7 +278,7 @@
 */LoginByToken*
 
 ! Вызовы синхронизации приватных данных (из параметров invoke 19)
-*&chatsSync=*contactsSync=*presenceSync=*
+*&chatsSync=*contactsSync=*presenceSync=*draftsSync=*
 
 ! Запросы параметров WebRTC конфигурации и TURN/STUN серверов
 *&internalCallerParams*
