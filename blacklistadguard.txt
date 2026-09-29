@@ -334,3 +334,6 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ||duma.gov.ru^
 ||onf.ru^
 
+! GitVerse & GigaCode
+||gitverse.ru^
+||gigacode.ru^
