@@ -67,3 +67,12 @@ Linux
 2. Скачать скрипт установки командой curl -O https://raw.githubusercontent.com/mrtag-oss/russianservicesblacklist/refs/heads/main/rsb.sh
 3. Выдать ему права на исполнение командой chmod +x rsb.sh
 4. Запустить командой sudo ./rsb.sh
+
+AmneziaVPN
+
+Сделать настройки так как на скриншотах:
+
+<img width="465" height="878" alt="image" src="https://github.com/user-attachments/assets/f253081d-53ea-4085-b5b1-5b4c6dce0036" />
+<img width="456" height="878" alt="image" src="https://github.com/user-attachments/assets/59ad3fa1-ebf2-416a-b9d9-45301e879906" />
+
+
