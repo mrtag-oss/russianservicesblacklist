@@ -337,3 +337,7 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ! GitVerse & GigaCode
 ||gitverse.ru^
 ||gigacode.ru^
+
+||kaspersky-labs.com^
+||kaspersky.com^
+||kaspersky.ru^
