@@ -429,3 +429,4 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||f6.ru^
 ||id.f6.ru^
 ||api.f6.ru^
+||gu-st.ru^
