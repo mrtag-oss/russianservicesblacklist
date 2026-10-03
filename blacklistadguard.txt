@@ -425,3 +425,7 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||mwscdn.ru^
 ||facct.ru^
 ||id.facct.ru^
+! --- F6 (ex-F.A.C.C.T. / ex-Group-IB) ---
+||f6.ru^
+||id.f6.ru^
+||api.f6.ru^
