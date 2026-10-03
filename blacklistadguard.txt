@@ -417,3 +417,11 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ! Если фильтр поддерживает проверку тела запроса:
 ||ws-api.oneme.ru/ws2?$reqbody=transmit-data
 ||ws-api.oneme.ru/ws2?$reqbody=accept-call
+! --- Wildberries CDN ---
+||wbbasket.ru^
+||basket-*.wbbasket.ru^
+||static-basket-*.wbbasket.ru^
+! --- МТС и Антифрод ---
+||mwscdn.ru^
+||facct.ru^
+||id.facct.ru^
