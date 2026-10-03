@@ -341,3 +341,79 @@ $jsonprune=opcode,jsonprune=participantId,jsonprune=internalCallerParams
 ||kaspersky-labs.com^
 ||kaspersky.com^
 ||kaspersky.ru^
+
+! --- Банки и Финтех ---
+||sberbank.ru^
+||sber.ru^
+||online.sberbank.ru^
+||tbank.ru^
+||tinkoff.ru^
+||cdn-tinkoff.ru^
+||alfabank.ru^
+||vtb.ru^
+||nspk.ru^
+||sbp.nspk.ru^
+
+! --- Телеком ---
+||mts.ru^
+||rt.ru^
+||megafon.ru^
+||beeline.ru^
+||t2.ru^
+||tele2.ru^
+||yota.ru^
+
+! --- E-commerce, Доставка, Транспорт ---
+||ozon.ru^
+||ozon.tech^
+||wb.ru^
+||wildberries.ru^
+||wbstatic.net^
+||avito.ru^
+||avito.st^
+||megamarket.ru^
+||sbermegamarket.ru^
+||samokat.ru^
+||pochta.ru^
+||rzd.ru^
+
+! --- Госсектор ---
+||gosuslugi.ru^
+||mos.ru^
+||nalog.gov.ru^
+||fssp.gov.ru^
+||pfrf.ru^
+
+! --- Телеметрия и Аналитика ---
+||mediascope.net^
+||top100.rambler.ru^
+||sputnik.ru^
+
+! --- Антивирусы / Sec ---
+||drweb.ru^
+||ptsecurity.com^
+
+||afisha.ru^
+||livejournal.com^
+
+! ------------------ МАКС МЕССЕНДЖЕР: АНТИ-ТУННЕЛИРОВАНИЕ (OpenFlux) ------------------
+
+! 1. Блокировка хардкодных эндпоинтов WebRTC-сессий
+! В max_call.go и max_call_helper.go жестко зашиты параметры &tgt=start и &tgt=accept для инициации и приема звонка
+||ws-api.oneme.ru/ws2?*&tgt=start^*
+||ws-api.oneme.ru/ws2?*&tgt=accept^*
+
+! 2. Блокировка по сигнатуре клиента
+! В коде (max_call.go и max_call_helper.go) используется фиксированная маска capabilities=2A03F и версия 5
+||ws-api.oneme.ru/ws2?*capabilities=2A03F*
+||ws-api.oneme.ru/ws2?*&version=5&device=browser*
+
+! 3. Уничтожение механизма инъекции ICE (L7 HTTPS Filtering)
+! Вырезаем ключи, через которые идет туннелирование base64-трафика (candidate) и параметры соединения
+$jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
+
+! 4. Блокировка команд управления сокетом
+! В max_call.go транспорт отправляет команды "accept-call" и "transmit-data" (где зашит ICE-payload). 
+! Если фильтр поддерживает проверку тела запроса:
+||ws-api.oneme.ru/ws2?$reqbody=transmit-data
+||ws-api.oneme.ru/ws2?$reqbody=accept-call
