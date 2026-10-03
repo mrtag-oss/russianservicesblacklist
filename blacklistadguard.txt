@@ -486,3 +486,5 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||counter.yadro.ru^
 ! Рекламная платформа Яндекса для сайтов
 ||adfox.ru^
+! --- МГЕР (Те самые любители отчетов со свиданий) ---
+||mger.ru^
