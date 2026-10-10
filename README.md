@@ -75,6 +75,13 @@ Linux
 3. Выдать ему права на исполнение командой chmod +x rsb.sh
 4. Запустить командой sudo ./rsb.sh
 
+AltLinux (дистрибутив)
+
+1. Открыть терминал
+2. Скачать скрипт установки командой curl -O https://raw.githubusercontent.com/mrtag-oss/russianservicesblacklist/refs/heads/main/rsb-altlinux.sh
+3. Выдать ему права на исполнение командой chmod +x rsb-altlinux.sh
+4. Запустить командой sudo ./rsb-altlinux.sh
+
 AmneziaVPN
 
 Windows:
