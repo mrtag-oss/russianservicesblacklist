@@ -540,3 +540,5 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||facct.ru^
 ||group-ib.ru^
 ||group-ib.com^
+
+||inappstory.ru^
