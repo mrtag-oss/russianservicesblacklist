@@ -545,3 +545,7 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 
 ! R. I. P.
 @@||navalny.livejournal.com^
+@@||ic.pics.livejournal.com^
+@@||pics.livejournal.com^
+@@||l-userpic.livejournal.com^
+@@||userpic.livejournal.com^
