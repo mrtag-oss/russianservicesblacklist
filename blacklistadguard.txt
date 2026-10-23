@@ -542,3 +542,6 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||group-ib.com^
 
 ||inappstory.ru^
+
+! R. I. P.
+@@||navalny.livejournal.com^
