@@ -6,7 +6,7 @@ IMPORTANT!!! / ВАЖНО!!!
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1280px-Flag_of_Ukraine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Украина"> Слава Украине! / Glory to Ukraine!
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai" width="30" height="20" alt="Палестина"> Free Palestine! / Свободу Палестине!
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/1920px-Flag_of_Palestine.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnai" width="30" height="20" alt="Палестина"> / <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/1280px-Flag_of_Israel.svg.png?utm_source=ru.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" width="30" height="20" alt="Израиль"> Free Palestine! (and leave Israel alone) / Свободу Палестине! (и оставьте Израиль в покое)
 
 
 Блокировщик российских сервисов для всех устройств
