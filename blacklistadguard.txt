@@ -549,3 +549,7 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 @@||pics.livejournal.com^
 @@||l-userpic.livejournal.com^
 @@||userpic.livejournal.com^
+
+! --- Тотальный карантин для сервиса «Звук» (Сбер) ---
+||zvuk.com^
+||sberdevices.ru^
