@@ -557,3 +557,8 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||api.ipify.org^
 ||checkip.amazonaws.com^
 ||ifconfig.me^
+
+||r-push.org^
+||common.dot.dns.yandex.net^
+||cloudflare-dns.com^
+||dns.google^
