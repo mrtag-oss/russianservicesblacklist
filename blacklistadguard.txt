@@ -553,3 +553,7 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ! --- Тотальный карантин для сервиса «Звук» (Сбер) ---
 ||zvuk.com^
 ||sberdevices.ru^
+
+||api.ipify.org^
+||checkip.amazonaws.com^
+||ifconfig.me^
