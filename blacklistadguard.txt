@@ -560,5 +560,4 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 
 ||r-push.org^
 ||common.dot.dns.yandex.net^
-||cloudflare-dns.com^
-||dns.google^
+
