@@ -102,7 +102,7 @@ Linux:
 
 см. пункт Браузеры
 
-Android
+Android:
 
 см. Android 
 
