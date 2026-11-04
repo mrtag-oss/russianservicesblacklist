@@ -562,3 +562,4 @@ $jsonprune=candidate,jsonprune=conversationParams,jsonprune=vcp
 ||common.dot.dns.yandex.net^
 
 ||studilka.ru^
+||backapi-m.rustore.ru^
