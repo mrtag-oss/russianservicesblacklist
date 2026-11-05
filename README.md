@@ -1,6 +1,3 @@
-**Проводятся технические работы**
-
-
 IMPORTANT!!! / ВАЖНО!!!
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/White-blue-white_flag.svg/1280px-White-blue-white_flag.svg.png?utm_source=ru.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail" width="30" height="20" alt="Россия"> Россия будет свободной (счастливой)! / Russia will be free (happy)!
