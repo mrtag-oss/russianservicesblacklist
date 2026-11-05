@@ -43,7 +43,7 @@ Windows
 1.  Настройки - Сеть и Интернет - Wi-Fi - Свойства оборудования
 2.  Во вкладке назначение dns-сервера нажать изменить
 3.  Изменить настройки так как на скриншоте:
-<img width="640" height="956" alt="image" src="https://github.com/user-attachments/assets/08381d2b-c760-4614-b380-0eb97d44188f" />
+<img width="1090" height="1628" alt="650710920-08381d2b-c760-4614-b380-0eb97d44188f_edit_28000645923330" src="https://github.com/user-attachments/assets/12d510ad-7b67-434b-82ce-2a0d1fb9db2d" />
 
 Браузеры
 
