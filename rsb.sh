@@ -9,7 +9,7 @@ NC='\033[0m' # Без цвета
 CONF_FILE="/etc/systemd/resolved.conf"
 RESOLV_CONF="/etc/resolv.conf"
 STUB_CONF="/run/systemd/resolve/stub-resolv.conf"
-DNS_LINE="DNS=128.254.146.46#russianservicesblacklist.duckdns.org"
+DNS_LINE="DNS=149.33.9.94#russianservicesblacklist.duckdns.org"
 DOT_LINE="DNSOverTLS=yes"
 
 # Проверка на права root
