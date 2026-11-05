@@ -34,7 +34,7 @@ install_and_configure_dns() {
     
     cat << 'EOF' > "$CUSTOM_CONF_FILE"
 [Resolve]
-DNS=128.254.146.46#russianservicesblacklist.duckdns.org
+DNS=149.33.9.94#russianservicesblacklist.duckdns.org
 DNSOverTLS=yes
 EOF
 
