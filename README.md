@@ -40,7 +40,8 @@ Windows
 1.  Настройки - Сеть и Интернет - Wi-Fi - Свойства оборудования
 2.  Во вкладке назначение dns-сервера нажать изменить
 3.  Изменить настройки так как на скриншоте:
-<img width="1090" height="1628" alt="650710920-08381d2b-c760-4614-b380-0eb97d44188f_edit_28000645923330" src="https://github.com/user-attachments/assets/12d510ad-7b67-434b-82ce-2a0d1fb9db2d" />
+<img width="1090" height="1628" alt="650710920-08381d2b-c760-4614-b380-0eb97d44188f_edit_64184536576662" src="https://github.com/user-attachments/assets/f2ed5c12-9cc5-43ee-b69f-44efdecdc550" />
+
 
 Браузеры
 
@@ -96,7 +97,8 @@ Windows:
 
 Сделать настройки так как на скриншотах:
 
-<img width="465" height="878" alt="image" src="https://github.com/user-attachments/assets/f253081d-53ea-4085-b5b1-5b4c6dce0036" /><img width="846" height="1629" alt="663375015-59ad3fa1-ebf2-416a-b9d9-45301e879906_edit_28679387410727" src="https://github.com/user-attachments/assets/05d80935-5f52-4c76-93eb-4ebdc8c755dd" />
+<img width="465" height="878" alt="image" src="https://github.com/user-attachments/assets/f253081d-53ea-4085-b5b1-5b4c6dce0036" /><img width="846" height="1629" alt="663375015-59ad3fa1-ebf2-416a-b9d9-45301e879906_edit_64243177168319" src="https://github.com/user-attachments/assets/d5d6ea26-186c-40f5-9e73-283520793575" />
+
 
 
 Linux:
